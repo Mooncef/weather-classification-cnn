@@ -14,11 +14,11 @@ Dataset: 6862 labeled images (balanced)
 ## Models Implemented
 
 ### 1 - Simple CNN  
-Sequential model built from scratch using basic Conv2D and MaxPooling layers  
+Sequential model using basic Conv2D and MaxPooling layers  
 `CNN.ipynb`
 
 ### 2 - CNN with Residual Blocks + Data Augmentation  
-Custom architecture with manually coded residual blocks (like in ResNet)  
+Custom architecture with manually coded residual blocks  
 + extensive image augmentation (`ImageDataGenerator`)  
 `Advanced_CNN.ipynb`
 
@@ -26,14 +26,13 @@ Custom architecture with manually coded residual blocks (like in ResNet)
 Fine-tuned models pretrained on ImageNet:
 - **ResNet101**
 - **EfficientNetB7**  
-`ResNet101.ipynb` and `Homework3_ResNet101.ipynb`
+`ResNet101.ipynb` and `ResNet101.ipynb`
 
 ## Evaluation Metrics
 
 - Accuracy (train / val)
 - Loss curves
 - Model comparison
-- (Optional) Confusion matrix, per-class breakdown
 
 ## Files
 
